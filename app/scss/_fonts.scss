@@ -1,0 +1,78 @@
+
+@font-face{
+  font-family: 'DMSans-Bold_1', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  
+  src: local('DMSans-Bold_1'),
+      url('../fonts/DMSans-Bold_1.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'DMSans-Bold_1', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  
+  src: local('DMSans-BoldItalic_1.woff'),
+      url('../fonts/DMSans-BoldItalic_1.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'DMSans-Italic.woff', sans-serif;
+  font-weight: 400;
+  
+  src: local('DMSans-BoldItalic_1.woff'),
+      url('../fonts/DMSans-Italic.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'DMSans-Medium.woff', sans-serif;
+  font-weight: 400;
+  
+  src: local('DMSans-BoldItalic_1.woff'),
+      url('../fonts/DMSans-Medium.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'DMSans-MediumItalic.woff', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  
+  src: local('DMSans-MediumItalic.woff'),
+      url('../fonts/DMSans-MediumItalic.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'DMSans-Regular.woff', sans-serif;
+  font-weight: 400;
+  
+  src: local('DMSans-Regular.woff'),
+      url('../fonts/DMSans-Regular.woff') format('woff');
+  font-display: swap;
+}
+
+
+@font-face{
+  font-family: 'Rubik-Italic-VariableFont_wght.woff', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  
+  src: local('Rubik-Italic-VariableFont_wght.woff'),
+      url('../fonts/Rubik-Italic-VariableFont_wght.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'Rubik-VariableFont_wght.woff', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  
+  src: local('Rubik-VariableFont_wght.woff'),
+      url('../fonts/Rubik-VariableFont_wght.woff') format('woff');
+  font-display: swap;
+}
