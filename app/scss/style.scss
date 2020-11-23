@@ -4,7 +4,7 @@
 @import 'reset';
 
 
-.header{
+ .header{
   display: flex;
   padding: 50px 0;
   
@@ -54,8 +54,6 @@
   height: 50px;
   border-radius: 50%;
   padding: 16px 0;
- 
-  
 }
 
 
@@ -71,8 +69,6 @@
   line-height: 17px;
   text-align: center;
   background-color: #fff;
- 
-
 }
 
 .user-nav__link--btn{
@@ -80,8 +76,7 @@
   height: 45px;
   background: #a3bbc8;
   border-radius: 50%;
-  
-  }
+}
 
 .user-nav__link-btn{
   transform: translateX(60%);
@@ -95,11 +90,9 @@
   background: #edf1f4;
   border-radius: 50%;
   transform: translateX(-70%);
-  
 }
 .user-nav__link-img{
   transform: translateX(100%);
-  
 }
 
 .nav-fon{
@@ -109,8 +102,16 @@
   z-index: -9;
   width: 114px;
   height: 42px;
-  
 }
+
+
+.linia{
+  position: relative;
+  top: -69px;
+  left: 32px;
+  color: #fff;
+}
+
 
 
 
