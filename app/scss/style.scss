@@ -76,11 +76,13 @@
   height: 45px;
   background: #a3bbc8;
   border-radius: 50%;
+  left: 15%;
 }
 
 .user-nav__link-btn{
   transform: translateX(60%);
     margin-top: -3px;
+    
 }
 
 
@@ -100,17 +102,15 @@
   top: -37px;
   transform: translateX(-20%);
   z-index: -9;
-  width: 114px;
+  width: 145px;
   height: 42px;
+  left: 11%;
 }
 
-
-.linia{
-  position: relative;
-  top: -69px;
-  left: 32px;
-  color: #fff;
+.user-nav__link--cart{
+   left: 20px;
 }
+
 
 
 
