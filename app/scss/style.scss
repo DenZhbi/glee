@@ -177,6 +177,91 @@
     }
 }
 
+// Products of the week
+.info{
+  display: flex;
+  justify-content: space-around;
+  background-color: #fef7f0;
+  padding-top: 50px;
+  margin-top: -30px;
+  
+  
+}
+.info__item{
+  max-width: 285px;
+  position: relative;
+  
+  left: 0;
+  right: 0;
+  
+}
+.info__item-icon{
+  position: absolute;
+  margin-left: -25px;
+
+}
+.info__item-title{
+  margin-left: 50px;
+}
+.info__item-text{
+  margin-top: 17px;
+  margin-left: 50px;
+  margin-bottom: 60px;
+  line-height: 30px;
+}
+.rectangle1::before{
+  position: absolute;
+  content: "";
+  background-image: url(..//images/ikons/Rectangle1.svg);
+  width: 1px;
+  height: 160px;
+  background-repeat: no-repeat;
+  top: -47px;
+  left: -85px;
+}
+.rectangle2{
+  position: absolute;
+  content: "";
+  background-image: url(..//images/ikons/Rectangle1.svg);
+  width: 1px;
+  height: 158px;
+  background-repeat: no-repeat;
+  top: -47px;
+  left: 295px;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.products__list{
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.products__inner{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  
+}
+.products__list-link{
+  margin-left: 50px;
+  font-weight: 700;
+  color: #8b8b8b;
+}
+.products__list-link:hover{
+  color: #191919;
+  transition: all .3s;
+}
+
+.title{
+  color: #191919;
+  font-size: 36px;
+  
+}
 
 
 
